@@ -1,6 +1,6 @@
-package com.wallace.gestao_gastos.repositorio;
+package com.wallace.gestao_gastos.repository;
 
-import com.wallace.gestao_gastos.dominio.Transacao;
+import com.wallace.gestao_gastos.domain.Transacao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

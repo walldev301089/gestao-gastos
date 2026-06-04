@@ -1,4 +1,4 @@
-package com.wallace.gestao_gastos.dominio;
+package com.wallace.gestao_gastos.domain;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
