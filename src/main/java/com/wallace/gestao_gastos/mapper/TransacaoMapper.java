@@ -6,6 +6,6 @@ import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
 public interface TransacaoMapper {
-    TransacaoDTO transacaoToTransacaoDTO(Transacao transacao);
-    Transacao transacaoDTOToTransacao(TransacaoDTO transacaoDTO);
+    TransacaoDTO toDto(Transacao transacao);
+    Transacao toEntity(TransacaoDTO transacaoDTO);
 }
